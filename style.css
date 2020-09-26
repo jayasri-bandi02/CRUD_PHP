@@ -1,0 +1,40 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ff8000;
+}
+
+.active {
+  background-color: #000d1a;
+}
+body
+{
+	background-color:#c2d6d6;
+}
+th, td {
+  padding: 15px;
+}
+.btn
+{
+	background-color:#ff8000;
+	padding:5px;
+	color:white;
+	font-size:15px;
+}
